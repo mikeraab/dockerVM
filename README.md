@@ -104,8 +104,8 @@ At this point, you can do other things with your VM to add convenience.
 
 <img src=images/2017-03-21_09-27-33.jpg />
 
-* Set up a volume mount to map to a directory on your laptop:
+* Set up a volume mount to map to a directory on your laptop to the vm to copy/share files:
 
-<img src=images/2017-03-21_09-27-33.jpg />
+<img src=images/2017-03-21_13-06-38.jpg />
 
 
