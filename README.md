@@ -1,11 +1,11 @@
 # dockerVM
-the fast path to a working Docker Engine VM on VirtualBox
+The fastest path to a working Docker Engine VM on VirtualBox
 
-I created this document, because I found no straightforward method to create a simple VM with the Docker Engine installed.
+I created this document, because I found no straight forward method to create a simple VM with the Docker Engine installed.
 
-This document is designed to convey one method of creating the fastest path to a working Docker VM on your laptop, whether that is a Mac or Windows based.
+This document is designed to show a method of creating the fastest path to a working Docker VM on your laptop, whether Mac or Windows based.
 
-Core steps:
+Follow these steps:
 
 1. Install VirtualBox from one of these [downloads](http://www.oracle.com/technetwork/server-storage/virtualbox/downloads/index.html)
 
