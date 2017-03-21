@@ -24,7 +24,7 @@ Follow these steps:
 
 <img src=images/2017-03-21_09-01-18.jpg />
 
-6. Install Umbuntu:
+6. Install Ubuntu:
 
 <img src=images/2017-03-21_09-02-18.jpg />
 
