@@ -90,7 +90,7 @@ $ docker run hello-world
 
 <img src=images/2017-03-21_09-23-52.jpg />
 
-**Congratulations, you have a working VM with the latest Docker Engine installed and have run your first container**
+**Congratulations, you have a working VM with the latest Docker Engine installed and have run your first container!**
 
 
 
