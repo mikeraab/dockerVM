@@ -1,5 +1,6 @@
 # dockerVM
-The fastest path to a working Docker Engine VM on VirtualBox
+
+**The fastest path to a working Docker Engine VM on VirtualBox**
 
 I created this document, because I found no straight forward method to create a simple VM with the Docker Engine installed.
 
@@ -7,19 +8,19 @@ This document is designed to show a method of creating the fastest path to a wor
 
 Follow these steps:
 
-1. Install VirtualBox from one of these [downloads](http://www.oracle.com/technetwork/server-storage/virtualbox/downloads/index.html)
+1. Install VirtualBox from one of these [downloads.](http://www.oracle.com/technetwork/server-storage/virtualbox/downloads/index.html)
 
-2. Download the [Ubuntu Desktop ISO](https://www.ubuntu.com/download/desktop)
+2. Download the [Ubuntu Desktop ISO.](https://www.ubuntu.com/download/desktop)
 
-3. Create a new Linux VM, select Ubuntu 64bit in VirtualBox:
+3. Create a new Linux VM, select Ubuntu 64bit, and set the appropriate memory size for the VM in VirtualBox:
 
 <img src=images/2017-03-21_08-58-53.jpg />
 
-4. Add a disk volume:
+4. Add a disk volume of at least 9GB:
 
 <img src=images/2017-03-21_08-59-04.jpg />
 
-5. Start the VM and mount the Ubunto ISO:
+5. Start the VM in VirtualBox and mount the Ubunto ISO that you downloaded:
 
 <img src=images/2017-03-21_09-01-18.jpg />
 
@@ -31,7 +32,7 @@ Follow these steps:
 
 <img src=images/2017-03-21_09-02-34.jpg />
 
-8. Erase disk and install (this erases and install Ubuntu on the VDI virtual disk of the VM, not your real disk)
+8. Erase disk and install (this erases and installs Ubuntu on the VDI virtual disk of the VM):
 
 <img src=images/2017-03-21_09-03-15.jpg />
 
@@ -63,13 +64,15 @@ $ sudo -s
 
 <img src=images/2017-03-21_09-14-23.jpg />
 
-15. Install CURL:
+Then, at the command line:
+
+15. Install curl:
 
 ```
 $ apt install curl
 ```
 
-16. Install Docker:
+16. Install Docker with curl:
 
 ```
 $ curl -sSL https://get.docker.com/ | sh
@@ -87,7 +90,22 @@ $ docker run hello-world
 
 <img src=images/2017-03-21_09-23-52.jpg />
 
+**Congratulations, you have a working VM with the latest Docker Engine installed**
 
 
+
+At this point, you can do other things with your VM to add convenience.
+
+* Install Guest Additions CD Image (when the VM is running, access this under Devices from the menu VirtualBox menu bar):
+
+<img src=images/2017-03-21_09-26-21.jpg />
+
+* Set options to allow copy and paste:
+
+<img src=images/2017-03-21_09-27-33.jpg />
+
+* Set up a volume mount to map to a directory on your laptop:
+
+<img src=images/2017-03-21_09-27-33.jpg />
 
 
