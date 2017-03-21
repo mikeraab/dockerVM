@@ -4,7 +4,7 @@
 
 I created this document, because I found no straight forward method to create a simple VM with the Docker Engine installed.
 
-This document is designed to show a method of creating the fastest path to a working Docker VM on your laptop, whether Mac or Windows based.
+> This document is designed to show a method of creating the fastest path to a working Docker VM on your laptop, whether *Mac or Windows* based.
 
 Follow these steps:
 
@@ -90,9 +90,10 @@ $ docker run hello-world
 
 <img src=images/2017-03-21_09-23-52.jpg />
 
+
 **Congratulations, you have a working VM with the latest Docker Engine installed and have run your first container!**
 
-
+***
 
 > At this point, you can do other things with your VM to add convenience.
 
