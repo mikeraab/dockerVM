@@ -44,7 +44,7 @@ Follow these steps:
 
 <img src=images/2017-03-21_09-04-38.jpg />
 
-11. Ubuntu is then installed.  Restart the VM when prompted.
+11. Ubuntu is then installed.  Restart the VM when prompted:
 
 <img src=images/2017-03-21_09-11-37.jpg />
 
@@ -78,7 +78,7 @@ $ apt install curl
 $ curl -sSL https://get.docker.com/ | sh
 ```
 
-17. Verify Docker and run hello-world:
+17. Verify Docker Engine install and run hello-world:
 
 ```
 $ docker --version
@@ -90,11 +90,11 @@ $ docker run hello-world
 
 <img src=images/2017-03-21_09-23-52.jpg />
 
-**Congratulations, you have a working VM with the latest Docker Engine installed**
+**Congratulations, you have a working VM with the latest Docker Engine installed and have run your first container**
 
 
 
-At this point, you can do other things with your VM to add convenience.
+> At this point, you can do other things with your VM to add convenience.
 
 * Install Guest Additions CD Image (when the VM is running, access this under Devices from the menu VirtualBox menu bar):
 
