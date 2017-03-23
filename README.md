@@ -20,43 +20,47 @@ Follow these steps:
 
 <img src=images/2017-03-21_08-59-04.jpg />
 
-5. Start the VM in VirtualBox and mount the Ubunto ISO.  Use the browse control to navigate to the ISO that you downloaded:
+5. Start the VM that you just created in VirtualBox:
+
+<img src=images/2017-03-23_11-01-36.jpg />
+
+6. Use the browse control to navigate to the Ubuntu ISO that you downloaded, and mount it.  Click Start:
 
 <img src=images/2017-03-21_09-01-18new.jpg />
 
-6. Install Ubuntu:
+7. Install Ubuntu:
 
 <img src=images/2017-03-21_09-02-18.jpg />
 
-7. Accept install options:
+8. Accept install options:
 
 <img src=images/2017-03-21_09-02-34.jpg />
 
-8. Erase disk and install (this erases and installs Ubuntu on the VDI virtual disk of the VM):
+9. Erase disk and install (this erases and installs Ubuntu on the VDI virtual disk of the VM):
 
 <img src=images/2017-03-21_09-03-15.jpg />
 
-9. Set time zone and language:
+10. Set time zone and language:
 
 <img src=images/2017-03-21_09-03-31.jpg />
 
-10. Set login info:
+11. Set login info:
 
 <img src=images/2017-03-21_09-04-38.jpg />
 
-11. Ubuntu is then installed.  Restart the VM when prompted:
+12. Ubuntu is then installed.  Restart the VM when prompted:
 
 <img src=images/2017-03-21_09-11-37.jpg />
 
-12. Log into the VM:
+13. Log into the VM:
 
 <img src=images/2017-03-21_09-12-57.jpg />
 
-13. Search and access the Terminal:
+14. Search and access the Terminal:
 
 <img src=images/2017-03-21_09-13-53.jpg />
 
-14. For convenience, run as root:
+15. For convenience, run as root:
 
 ```
 $ sudo -s
@@ -66,19 +70,19 @@ $ sudo -s
 
 Then, at the command line:
 
-15. Install curl:
+16. Install curl:
 
 ```
 $ apt install curl
 ```
 
-16. Install Docker with curl:
+17. Install Docker with curl:
 
 ```
 $ curl -sSL https://get.docker.com/ | sh
 ```
 
-17. Verify Docker Engine install and run hello-world:
+18. Verify Docker Engine install and run hello-world:
 
 ```
 $ docker --version
