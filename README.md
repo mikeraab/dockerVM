@@ -12,7 +12,7 @@ Follow these steps:
 
 2. Download the [Ubuntu Desktop ISO.](https://www.ubuntu.com/download/desktop)
 
-3. Create a new Linux VM, select Ubuntu 64bit, and set the appropriate memory size for the VM in VirtualBox:
+3. Use the New Button <img src=images/new.jpg /> to create a Linux VM, select Ubuntu 64bit, and set the appropriate memory size for the VM in VirtualBox:
 
 <img src=images/2017-03-21_08-58-53.jpg />
 
