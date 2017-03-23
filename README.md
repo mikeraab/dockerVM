@@ -12,7 +12,7 @@ Follow these steps:
 
 2. Download the [Ubuntu Desktop ISO.](https://www.ubuntu.com/download/desktop)
 
-3. In VirtualBox, use the New button <img src=images/new.jpg /> to create a Linux VM.  Give it a name, secect Linux for the Type and select Ubuntu 64bit for the Version.  Set an appropriate memory size, and click the Create button:
+3. In VirtualBox, use the New button <img src=images/new.jpg /> to create a Linux VM.  Give it a name, select Linux for the Type and Ubuntu 64bit for the Version.  Set an appropriate memory size, and click the Create button:
 
 <img src=images/2017-03-21_08-58-53.jpg />
 
