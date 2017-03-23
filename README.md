@@ -20,9 +20,9 @@ Follow these steps:
 
 <img src=images/2017-03-21_08-59-04.jpg />
 
-5. Start the VM in VirtualBox and mount the Ubunto ISO that you downloaded:
+5. Start the VM in VirtualBox and mount the Ubunto ISO.  Use the browse control to navigate to the ISO that you downloaded:
 
-<img src=images/2017-03-21_09-01-18.jpg />
+<img src=images/2017-03-21_09-01-18new.jpg />
 
 6. Install Ubuntu:
 
