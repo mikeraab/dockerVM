@@ -101,7 +101,7 @@ $ docker run hello-world
 
 > At this point, you can do other things with your VM to add convenience.
 
-* Install Guest Additions CD Image (when the VM is running, access this under Devices from the menu VirtualBox menu bar):
+* Install Guest Additions CD Image (when the VM is running, access this under Devices from the VirtualBox menu bar):
 
 <img src=images/2017-03-21_09-26-21.jpg />
 
