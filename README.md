@@ -16,7 +16,7 @@ Follow these steps:
 
 <img src=images/2017-03-21_08-58-53.jpg />
 
-4. Add a disk volume of at least 9GB:
+4. Add a disk volume of at least 10GB:
 
 <img src=images/2017-03-21_08-59-04.jpg />
 
