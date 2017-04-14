@@ -4,7 +4,7 @@
 
 I created this document, because I found no straight forward method to create a simple VM with the Docker Engine installed.
 
-> This document is designed to show a method of creating the fastest path to a working Docker VM on your laptop, whether *Mac or Windows* based, in about 15 minutes.
+> This document is designed to show a method of creating the fastest path to a working Docker VM on your laptop, whether *Mac or Windows* based, in about 15 minutes (depending on the power of your laptop and speed of your Internet connection)
 
 Follow these steps:
 
